@@ -26,7 +26,7 @@ class Ball(Turtle):
             self.y_move *= -1
         else:
             self.x_move *= -1
-            self.move_speed *= .5
+            self.move_speed *= .9
 
     def restart(self):
         self.home()
